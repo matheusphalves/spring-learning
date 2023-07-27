@@ -1,4 +1,4 @@
-package com.learning.spring.demo.exceptions.handler;
+package com.learning.spring.demo.domain.exception;
 
 public class NoSuchProductFoundException extends RuntimeException{
 

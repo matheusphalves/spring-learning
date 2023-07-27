@@ -1,4 +1,4 @@
-package com.learning.spring.demo.dtos;
+package com.learning.spring.demo.api.model;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

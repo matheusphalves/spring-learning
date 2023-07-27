@@ -1,5 +1,6 @@
-package com.learning.spring.demo.exceptions.handler;
+package com.learning.spring.demo.api.exceptionhandler;
 
+import com.learning.spring.demo.domain.exception.NoSuchProductFoundException;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

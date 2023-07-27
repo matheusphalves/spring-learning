@@ -1,6 +1,6 @@
-package com.learning.spring.demo.services;
+package com.learning.spring.demo.domain.service;
 
-import com.learning.spring.demo.models.ProductModel;
+import com.learning.spring.demo.domain.model.ProductModel;
 
 import java.util.List;
 import java.util.NoSuchElementException;

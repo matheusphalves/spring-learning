@@ -1,4 +1,4 @@
-package com.learning.spring.demo.exceptions.handler;
+package com.learning.spring.demo.api.exceptionhandler;
 
 import java.time.LocalDateTime;
 

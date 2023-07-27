@@ -1,8 +1,8 @@
-package com.learning.spring.demo.controllers;
+package com.learning.spring.demo.api.controller;
 
-import com.learning.spring.demo.dtos.ProductRecordDto;
-import com.learning.spring.demo.models.ProductModel;
-import com.learning.spring.demo.services.ProductService;
+import com.learning.spring.demo.api.model.ProductRecordDto;
+import com.learning.spring.demo.domain.model.ProductModel;
+import com.learning.spring.demo.domain.service.ProductService;
 import jakarta.validation.Valid;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,8 +1,8 @@
-package com.learning.spring.demo.services;
+package com.learning.spring.demo.domain.service;
 
-import com.learning.spring.demo.exceptions.handler.NoSuchProductFoundException;
-import com.learning.spring.demo.models.ProductModel;
-import com.learning.spring.demo.repositories.ProductRepository;
+import com.learning.spring.demo.domain.exception.NoSuchProductFoundException;
+import com.learning.spring.demo.domain.model.ProductModel;
+import com.learning.spring.demo.domain.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
