@@ -6,6 +6,7 @@ import com.learning.spring.demo.domain.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.UUID;
@@ -26,6 +27,13 @@ public class ProductServiceImpl implements ProductService{
 
     @Override
     public ProductModel saveProduct(ProductModel productModel){
+        productModel.setCreatedAt(LocalDateTime.now());
+        return productRepository.save(productModel);
+    }
+
+    @Override
+    public ProductModel updateProduct(ProductModel productModel){
+        productModel.setUpdatedAt(LocalDateTime.now());
         return productRepository.save(productModel);
     }
 

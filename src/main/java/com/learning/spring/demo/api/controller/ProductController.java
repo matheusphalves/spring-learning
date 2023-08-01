@@ -58,7 +58,7 @@ public class ProductController {
 
         return ResponseEntity
                 .status(HttpStatus.OK)
-                .body(productService.saveProduct(productModel));
+                .body(productService.updateProduct(productModel));
 
     }
 

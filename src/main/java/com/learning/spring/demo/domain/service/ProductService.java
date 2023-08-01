@@ -12,6 +12,8 @@ public interface ProductService {
 
     ProductModel saveProduct(ProductModel productModel);
 
+    ProductModel updateProduct(ProductModel productModel);
+
     List<ProductModel> findAllProducts();
 
     void deleteProduct(UUID id);
