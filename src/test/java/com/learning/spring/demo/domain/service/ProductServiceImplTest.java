@@ -4,6 +4,7 @@ import com.learning.spring.demo.domain.model.ProductModel;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.context.annotation.Bean;
 
 import java.math.BigDecimal;
 
@@ -13,6 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertNull;
 
 @SpringBootTest
 class ProductServiceImplTest {
+
 
     @Autowired
     private ProductService productService;
